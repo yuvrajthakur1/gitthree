@@ -1,0 +1,95 @@
+body
+{
+    background-color: #DCF2F1;
+    color: #0F1035;
+}
+
+#banner-text
+{
+    color: #0F1035;
+    
+}
+
+#intro-para
+{
+    border-bottom: 2px solid;
+    border-color: #0F1035;
+}
+
+#logo:hover
+{
+ background-color: #81d3f3;
+ 
+}
+
+a:hover
+{
+    border-bottom: 2px solid rgb(1, 6, 66);
+}
+
+
+@media only screen and (min-width:900px)
+{
+    #intro-para {
+        
+        font-size: xx-large;
+    }
+}
+
+
+@media only screen and (min-width:1108px)
+{
+    #intro-para {
+        
+        font-size: xxx-large;
+    }
+}
+@media only screen and (min-width:700px)
+{
+    #intro-para {
+        
+        font-size: x-large;
+    }
+}
+
+
+
+/* @media only screen and (min-width:756px)
+{
+    .video-container {
+    
+        height: 100vh;
+    }
+} */
+
+
+
+/* Banner Video */
+
+.video-container {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+}
+
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: #DCF2F1;
+    text-align: center;
+    padding-top: 20vh; /* Adjust spacing as needed */
+}
+
+/* Banner Video */
